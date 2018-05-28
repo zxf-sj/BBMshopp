@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="coupon-form">
+    <view class="input-box">
+      <input class="coupon-sn" placeholder="请输入优惠码" bindinput="destnum" />
+      <image class="clear-icon" src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/clear-fb-dd9d604f86.png"></image>
+    </view>
+    <button class="add-btn disabled" bindtap="couponBtn" data-statu="open">兑换</button>
+  </view>
+  <!-- <view><text wx:if="{{fal}}" class="faltxt">礼品卡激活失败</text></view> -->
+  <!-- <view class="help">使用说明</view> -->
+   <!--mask-->
+  
+
+
+</view>
